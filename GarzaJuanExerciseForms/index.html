@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
+    <script src="/GarzaJuanExerciseForms/js/main.js"></script>
     <div id="wrapper">
       <header>
         <h1>Elden Ring</h1>
@@ -152,19 +153,33 @@
             src="images/elden-ring-shadow-of-the-erdtree-official-gameplay-reveal-tr_e8fm.1280-703x395.webp"
             alt="Elden Ring Shadow of the Erd Tree Gameplay"
           />
-          <h2>Contact Us</h2>
-          <form>
-            <label for="first">First Name:</label>
-            <input type="text" id="first" />
-          </form>
-          <form>
-            <label for="last">Last Name:</label>
-            <input type="text" id="last" />
-          </form>
-          <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" />
-          </form>
+          <!-- Contact Form Starts here -->
+          <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+              <div>
+                <label for="first">First Name:</label>
+                <input type="text" id="first" required />
+              </div>
+              <div>
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" required />
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required />
+              </div>
+              <div>
+                <label for="message">Message:</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+              </div>
+              <div id="check">
+                <input type="checkbox" id="save" />
+                <label for="save">Sign up for emails</label>
+              </div>
+              <button type="submit">Send</button>
+            </form>
+          </section>
         </section>
         <!-- Link to main source -->
         <footer>

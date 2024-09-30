@@ -84,6 +84,7 @@ footer {
   font-style: normal;
   font-variation-settings: "MORF" 15, "SHLN" 50;
   font-size: 1.65rem;
+  padding: 1rem;
 }
 a {
   text-decoration: none;
@@ -97,4 +98,56 @@ a:hover {
   width: 80%;
   padding: 1.25rem;
   margin: auto;
+}
+
+/* form styling */
+form {
+  border-radius: 0.5rem;
+  background-color: #ffd700;
+  padding: 1rem;
+  font-family: "Honk", system-ui, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+form > div {
+  margin-bottom: 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+#message {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+button {
+  background-color: black;
+  color: ghostwhite;
+  border: none;
+  padding: 0.375rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ec08ab;
+}
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+#check > label {
+  display: inline-block;
 }
